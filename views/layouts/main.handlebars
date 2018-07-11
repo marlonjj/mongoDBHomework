@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="style.css" type="text/css" />
+<div id="wrapper">
+    <h1>News Scraper</h1>
+    <h2><i>Click the articles to add a note</i></h2>
+    <div id="articles">
+        <ul>
+            {{#each articles}}
+            <li>
+            <a href={{this.link}}>{{this.title}}</a>
+            <img src={{this.image}}>
+            <button class="addNote" data-id={{this.id}}>Add Note</button>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div id="notes"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="app.js"></script>
