@@ -33,7 +33,7 @@ app.set("view engine", "handlebars");
 
 // By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb::localhost/homeworkscraper"
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/homeworkscraper"
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI);
