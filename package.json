@@ -1,6 +1,10 @@
 {
   "name": "mongoDBHomework",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.6.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/marlonjj/mongoDBHomework.git"
   },
-  "keywords": [],
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
