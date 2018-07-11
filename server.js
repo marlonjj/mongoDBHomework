@@ -34,7 +34,7 @@ app.set("view engine", "handlebars");
 // By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/homeworkscraper");
+mongoose.connect("mongodb://heroku_5fhmj938:nmohiu0tv5e62vdoba3n5tij9b@ds231961.mlab.com:31961/heroku_5fhmj938");
 
 // Routes
 
